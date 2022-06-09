@@ -26,5 +26,5 @@ class Employee extends Person {
         return `${this.printSentence()} and I get ${this.salary} every month, and I work in ${this.jobLocation}.`;
     }
 }
-let employee = new Employee("Anna", "Smith", 25, "Web Designer", 4500, "Vienna");
-console.log(employee.printData());
+let employee1 = new Employee("Anna", "Smith", 25, "Web Designer", 4500, "Vienna");
+console.log(employee1.printData());
